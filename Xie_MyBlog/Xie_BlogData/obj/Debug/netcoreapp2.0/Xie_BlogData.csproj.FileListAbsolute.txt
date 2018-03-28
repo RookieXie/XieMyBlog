@@ -1,0 +1,9 @@
+E:\git\Xie_MyBlog\Xie_BlogData\bin\Debug\netcoreapp2.0\Xie_BlogData.deps.json
+E:\git\Xie_MyBlog\Xie_BlogData\bin\Debug\netcoreapp2.0\Xie_BlogData.dll
+E:\git\Xie_MyBlog\Xie_BlogData\bin\Debug\netcoreapp2.0\Xie_BlogData.pdb
+E:\git\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData.csprojResolveAssemblyReference.cache
+E:\git\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData.csproj.CoreCompileInputs.cache
+E:\git\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData.AssemblyInfoInputs.cache
+E:\git\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData.AssemblyInfo.cs
+E:\git\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData.dll
+E:\git\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData.pdb

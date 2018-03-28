@@ -1,0 +1,17 @@
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.dll
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_BlogData.dll
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.xml
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.Relational.xml
+E:\git\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.csprojResolveAssemblyReference.cache
+E:\git\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.csproj.CoreCompileInputs.cache
+E:\git\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.AssemblyInfoInputs.cache
+E:\git\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.AssemblyInfo.cs
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_Db.deps.json
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_Db.dll
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_Db.pdb
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_BlogData.pdb
+E:\git\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.SqlServer.xml
+E:\git\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.dll
+E:\git\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.pdb
