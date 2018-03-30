@@ -11,9 +11,9 @@ namespace Xie_EntityFrameworkCore.netLog4
     public class XBlogLogActionFilter:ActionFilterAttribute
     {
         private readonly ILogger _logger;
-        private IXBlogDbContext _dbContext;
+        private XieMyBlogDbContext _dbContext;
 
-        public XBlogLogActionFilter(ILoggerFactory loggerFactory, IXBlogDbContext dbContext)
+        public XBlogLogActionFilter(ILoggerFactory loggerFactory, XieMyBlogDbContext dbContext)
         {
             _logger = loggerFactory.CreateLogger("LogActionFilter");
             _dbContext = dbContext;
@@ -22,7 +22,8 @@ namespace Xie_EntityFrameworkCore.netLog4
         {
             XBlogLog log = new XBlogLog();
             log.FID = "321";
-            //_logger.LogWarning("1");
+            _dbContext.XBlogLog.Add(log);
+            _dbContext.SaveChanges();
             base.OnActionExecuting(context);
         }
         public override void OnActionExecuted(ActionExecutedContext context)

@@ -1,0 +1,13 @@
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\b\Xie_UnitTestProject\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\b\Xie_UnitTestProject\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\b\Xie_UnitTestProject\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\b\Xie_UnitTestProject\Debug\netcoreapp2.0\Xie_UnitTestProject.deps.json
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\b\Xie_UnitTestProject\Debug\netcoreapp2.0\Xie_UnitTestProject.runtimeconfig.json
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\b\Xie_UnitTestProject\Debug\netcoreapp2.0\Xie_UnitTestProject.runtimeconfig.dev.json
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\b\Xie_UnitTestProject\Debug\netcoreapp2.0\Xie_UnitTestProject.dll
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\b\Xie_UnitTestProject\Debug\netcoreapp2.0\Xie_UnitTestProject.pdb
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\i\Xie_UnitTestProject\Debug\netcoreapp2.0\Xie_UnitTestProject.csproj.CoreCompileInputs.cache
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\i\Xie_UnitTestProject\Debug\netcoreapp2.0\Xie_UnitTestProject.AssemblyInfoInputs.cache
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\i\Xie_UnitTestProject\Debug\netcoreapp2.0\Xie_UnitTestProject.AssemblyInfo.cs
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\i\Xie_UnitTestProject\Debug\netcoreapp2.0\Xie_UnitTestProject.dll
+E:\git\XieMyBlog\Xie_MyBlog\.vs\Xie_MyBlog\lut\0\i\Xie_UnitTestProject\Debug\netcoreapp2.0\Xie_UnitTestProject.pdb

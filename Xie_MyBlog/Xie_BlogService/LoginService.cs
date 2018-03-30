@@ -1,4 +1,9 @@
-﻿using Xie_Db;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Extensions.Internal;
+using System.Linq;
+using System.Threading.Tasks;
+using Xie_BlogData.Data;
+using Xie_Db;
 
 namespace Xie_BlogService
 {
@@ -9,9 +14,9 @@ namespace Xie_BlogService
         {
             this._dbContext = _dbContext;
         }
-        public bool Login(string username,string password)
+        public Task<bool> Login(string username,string password)
         {
-            return true;
+           return  _dbContext.XBlogUser.Select(a=> a.UserName==username&&a.PassWord==password).FirstOrDefaultAsync();
         }
     }
 }

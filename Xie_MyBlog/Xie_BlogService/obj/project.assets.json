@@ -3867,6 +3867,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "Microsoft.EntityFrameworkCore.Tools.DotNet >= 2.0.0",
       "Microsoft.NETCore.App >= 2.0.0",
       "Xie_Db >= 1.0.0"
     ]
@@ -3881,11 +3882,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\git\\Xie_MyBlog\\Xie_BlogService\\Xie_BlogService.csproj",
+      "projectUniqueName": "E:\\git\\XieMyBlog\\Xie_MyBlog\\Xie_BlogService\\Xie_BlogService.csproj",
       "projectName": "Xie_BlogService",
-      "projectPath": "E:\\git\\Xie_MyBlog\\Xie_BlogService\\Xie_BlogService.csproj",
+      "projectPath": "E:\\git\\XieMyBlog\\Xie_MyBlog\\Xie_BlogService\\Xie_BlogService.csproj",
       "packagesPath": "C:\\Users\\singleXie\\.nuget\\packages\\",
-      "outputPath": "E:\\git\\Xie_MyBlog\\Xie_BlogService\\obj\\",
+      "outputPath": "E:\\git\\XieMyBlog\\Xie_MyBlog\\Xie_BlogService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3904,8 +3905,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "E:\\git\\Xie_MyBlog\\Xie_Db\\Xie_Db.csproj": {
-              "projectPath": "E:\\git\\Xie_MyBlog\\Xie_Db\\Xie_Db.csproj"
+            "E:\\git\\XieMyBlog\\Xie_MyBlog\\Xie_Db\\Xie_Db.csproj": {
+              "projectPath": "E:\\git\\XieMyBlog\\Xie_MyBlog\\Xie_Db\\Xie_Db.csproj"
             }
           }
         }
@@ -3919,6 +3920,10 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",

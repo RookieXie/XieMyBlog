@@ -8,7 +8,10 @@
     ".NETCoreApp,Version=v2.0": {
       "Xie_BlogService/1.0.0": {
         "dependencies": {
-          "Xie_Db": "1.0.0"
+          "Microsoft.EntityFrameworkCore.Tools.DotNet": "2.0.0",
+          "Xie_Db": "1.0.0",
+          "Microsoft.AspNetCore.Hosting": "2.0.1.0",
+          "Microsoft.EntityFrameworkCore": "2.0.1.0"
         },
         "runtime": {
           "Xie_BlogService.dll": {}
@@ -459,6 +462,16 @@
         "runtime": {
           "Xie_Db.dll": {}
         }
+      },
+      "Microsoft.AspNetCore.Hosting/2.0.1.0": {
+        "runtime": {
+          "Microsoft.AspNetCore.Hosting.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore/2.0.1.0": {
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.dll": {}
+        }
       }
     }
   },
@@ -790,6 +803,16 @@
     },
     "Xie_Db/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Hosting/2.0.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore/2.0.1.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

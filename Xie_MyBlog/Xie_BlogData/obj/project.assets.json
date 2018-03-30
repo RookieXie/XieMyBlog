@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\git\\Xie_MyBlog\\Xie_BlogData\\Xie_BlogData.csproj",
+      "projectUniqueName": "E:\\git\\XieMyBlog\\Xie_MyBlog\\Xie_BlogData\\Xie_BlogData.csproj",
       "projectName": "Xie_BlogData",
-      "projectPath": "E:\\git\\Xie_MyBlog\\Xie_BlogData\\Xie_BlogData.csproj",
+      "projectPath": "E:\\git\\XieMyBlog\\Xie_MyBlog\\Xie_BlogData\\Xie_BlogData.csproj",
       "packagesPath": "C:\\Users\\singleXie\\.nuget\\packages\\",
-      "outputPath": "E:\\git\\Xie_MyBlog\\Xie_BlogData\\obj\\",
+      "outputPath": "E:\\git\\XieMyBlog\\Xie_MyBlog\\Xie_BlogData\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
