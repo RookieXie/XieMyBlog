@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -28,10 +29,9 @@ namespace Xie_MyBlog
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<XieMyBlogDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDbContext<XieMyBlogDbContext>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
             services.AddScoped<XBlogLogActionFilter>(); //注入日志 实现aop
             XBlogSingleton.CreateInstance();//or  services.AddSingleton<>();
-
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options => {
                 options.LoginPath = "/Home/Index";
                 options.AccessDeniedPath = "/Home/Error";

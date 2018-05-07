@@ -40,3 +40,17 @@ E:\git\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Xie_
 E:\git\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Mvc.Core.xml
 E:\git\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.Relational.xml
 E:\git\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Microsoft.EntityFrameworkCore.SqlServer.xml
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\obj\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.csprojResolveAssemblyReference.cache
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\obj\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.csproj.CoreCompileInputs.cache
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\obj\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.AssemblyInfoInputs.cache
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\obj\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.AssemblyInfo.cs
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\obj\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.dll
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\obj\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.pdb
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.deps.json
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.dll
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.pdb
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Xie_BlogData.dll
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Xie_Db.dll
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Xie_Db.pdb
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\bin\Debug\netcoreapp2.0\Xie_BlogData.pdb
+F:\github\XieMyBlog\Xie_MyBlog\Xie_EntityFrameworkCore\obj\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.csproj.CopyComplete
