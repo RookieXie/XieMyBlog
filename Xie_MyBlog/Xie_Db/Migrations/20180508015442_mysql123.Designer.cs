@@ -11,15 +11,15 @@ using Xie_Db;
 namespace Xie_Db.Migrations
 {
     [DbContext(typeof(XieMyBlogDbContext))]
-    [Migration("20180327090128_XBlogMigration")]
-    partial class XBlogMigration
+    [Migration("20180508015442_mysql123")]
+    partial class mysql123
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.0.1-rtm-125")
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
+                .HasAnnotation("ProductVersion", "2.0.2-rtm-10011");
 
             modelBuilder.Entity("Xie_BlogData.Data.XBlogLog", b =>
                 {

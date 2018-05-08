@@ -20,6 +20,49 @@ namespace Xie_Db.Migrations
                 .HasAnnotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn)
                 .HasAnnotation("ProductVersion", "2.0.2-rtm-10011");
 
+            modelBuilder.Entity("Xie_BlogData.Data.XBlogArticle", b =>
+                {
+                    b.Property<string>("FID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("FID")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("Content")
+                        .HasColumnName("Content");
+
+                    b.Property<DateTime?>("CreateTime")
+                        .HasColumnName("CreateTime");
+
+                    b.Property<string>("Creator")
+                        .HasColumnName("Creator")
+                        .HasMaxLength(50);
+
+                    b.Property<bool?>("IsDelete")
+                        .HasColumnName("IsDelete");
+
+                    b.Property<string>("Orgnazation")
+                        .HasColumnName("Orgnazation")
+                        .HasMaxLength(50);
+
+                    b.Property<string>("Title")
+                        .HasColumnName("Title")
+                        .HasMaxLength(200);
+
+                    b.Property<int?>("TitleType")
+                        .HasColumnName("TitleType");
+
+                    b.Property<DateTime?>("UpdateTime")
+                        .HasColumnName("UpdateTime");
+
+                    b.Property<string>("Updator")
+                        .HasColumnName("Updator")
+                        .HasMaxLength(50);
+
+                    b.HasKey("FID");
+
+                    b.ToTable("XBlogArticle");
+                });
+
             modelBuilder.Entity("Xie_BlogData.Data.XBlogLog", b =>
                 {
                     b.Property<string>("FID")
@@ -58,6 +101,46 @@ namespace Xie_Db.Migrations
                     b.HasKey("FID");
 
                     b.ToTable("XBlogLog");
+                });
+
+            modelBuilder.Entity("Xie_BlogData.Data.XBlogTitleType", b =>
+                {
+                    b.Property<string>("FID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("FID")
+                        .HasMaxLength(50);
+
+                    b.Property<DateTime?>("CreateTime")
+                        .HasColumnName("CreateTime");
+
+                    b.Property<string>("Creator")
+                        .HasColumnName("Creator")
+                        .HasMaxLength(50);
+
+                    b.Property<bool?>("IsDelete")
+                        .HasColumnName("IsDelete");
+
+                    b.Property<string>("Orgnazation")
+                        .HasColumnName("Orgnazation")
+                        .HasMaxLength(50);
+
+                    b.Property<int?>("TypeInt")
+                        .HasColumnName("TypeInt");
+
+                    b.Property<string>("TypeName")
+                        .HasColumnName("TypeName")
+                        .HasMaxLength(200);
+
+                    b.Property<DateTime?>("UpdateTime")
+                        .HasColumnName("UpdateTime");
+
+                    b.Property<string>("Updator")
+                        .HasColumnName("Updator")
+                        .HasMaxLength(50);
+
+                    b.HasKey("FID");
+
+                    b.ToTable("XBlogTitleType");
                 });
 
             modelBuilder.Entity("Xie_BlogData.Data.XBlogUser", b =>

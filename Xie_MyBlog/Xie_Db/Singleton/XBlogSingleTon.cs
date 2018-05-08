@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Xie_EntityFrameworkCore
+namespace Xie_Db
 {
     public sealed class XBlogSingleton
     {

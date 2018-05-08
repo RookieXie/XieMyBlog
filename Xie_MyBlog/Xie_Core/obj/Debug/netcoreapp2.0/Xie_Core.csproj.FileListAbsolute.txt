@@ -1,0 +1,14 @@
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\bin\Debug\netcoreapp2.0\Xie_Core.deps.json
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\bin\Debug\netcoreapp2.0\Xie_Core.dll
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\bin\Debug\netcoreapp2.0\Xie_Core.pdb
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Authorization.dll
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\bin\Debug\netcoreapp2.0\Newtonsoft.Json.dll
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Authorization.xml
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\bin\Debug\netcoreapp2.0\Newtonsoft.Json.xml
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\obj\Debug\netcoreapp2.0\Xie_Core.csproj.CoreCompileInputs.cache
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\obj\Debug\netcoreapp2.0\Xie_Core.AssemblyInfoInputs.cache
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\obj\Debug\netcoreapp2.0\Xie_Core.AssemblyInfo.cs
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\obj\Debug\netcoreapp2.0\Xie_Core.csproj.CopyComplete
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\obj\Debug\netcoreapp2.0\Xie_Core.dll
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\obj\Debug\netcoreapp2.0\Xie_Core.pdb
+F:\github\XieMyBlog\Xie_MyBlog\Xie_Core\obj\Debug\netcoreapp2.0\Xie_Core.csprojResolveAssemblyReference.cache

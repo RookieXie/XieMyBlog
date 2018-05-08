@@ -1,0 +1,38 @@
+﻿@using Xie_BlogData.Data;
+@{
+    ViewData["Title"] = "TitleType";
+    List<XBlogTitleType> xBlogTitleTypes = Model;
+}
+<h2>TitleType</h2>
+<div>
+    标签名:<input type="text" class="signName" />
+    <button class="addSign">新增</button>
+</div>
+@foreach (var item in xBlogTitleTypes)
+{
+    <span class="label label-default">@item.TypeName</span>
+}
+
+<script>
+    $(".addSign").click(function () {
+        var signName = $(".signName").val();
+        if (signName == null || signName.trim() == "") {
+            alert("标签名不能为空");
+            return false;
+        } else {
+            $.post("/Title/AddArticleType", { signName: signName}, function (res) {
+                var a = res;
+                if (res == "1") {
+                }
+                else {
+
+
+                }
+
+            })
+
+        }
+        console.log(loginName);
+        console.log(loginPwd);
+    })
+</script>

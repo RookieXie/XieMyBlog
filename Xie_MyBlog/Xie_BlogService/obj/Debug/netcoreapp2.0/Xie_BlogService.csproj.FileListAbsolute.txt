@@ -52,3 +52,5 @@ F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_Db.dl
 F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_Db.pdb
 F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_BlogData.pdb
 F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogService\obj\Debug\netcoreapp2.0\Xie_BlogService.csproj.CopyComplete
+F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.dll
+F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.pdb

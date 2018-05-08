@@ -24,3 +24,4 @@ F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData
 F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData.AssemblyInfo.cs
 F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData.dll
 F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData.pdb
+F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogData\obj\Debug\netcoreapp2.0\Xie_BlogData.csprojResolveAssemblyReference.cache

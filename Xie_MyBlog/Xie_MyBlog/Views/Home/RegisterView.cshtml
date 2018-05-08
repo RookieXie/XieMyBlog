@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "RegisterView";
+}
+
+<h2>RegisterView</h2>
+
+<div>
+    登录名：<input id="rName" type="text" />
+    昵称：<input id="rNickName" type="text" />
+    密码：<input id="rPwd" type="password" />
+    重复密码：<input id="rPwdAgain" type="password" />
+    <button class="submit">注册</button>
+</div>
+<script>
+    $(".submit").click(function () {
+        var rName = $("#rName").val();
+        var rNickName = $("#rNickName").val();
+        var rPwd = $("#rPwd").val();
+        var rPwdAgain = $("#rPwd").val();
+        if (rName == null || rName.trim() == "" || rPwd == null || rPwd == "" || rPwdAgain == null || rPwdAgain == "" || rNickName == null || rNickName.trim() == "") {
+            alert("登录名和密码不能为空");
+            return false;
+        } else if (rPwd != rPwdAgain)
+        {
+            alert("密码不一致");
+            return false;
+         }
+        else {
+            $.post("/Home/Register", { username: rName, nickName: rNickName, password: rPwd }, function (res) {
+                var a = res;
+                if (res=="1") {
+
+
+                }
+
+            })
+
+        }
+        console.log(loginName);
+        console.log(loginPwd);
+    })
+
+</script>

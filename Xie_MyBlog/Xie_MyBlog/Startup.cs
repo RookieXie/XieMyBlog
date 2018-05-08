@@ -10,9 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Xie_BlogData.Data;
 using Xie_Db;
-using Xie_EntityFrameworkCore;
 using Xie_EntityFrameworkCore.netLog4;
 
 namespace Xie_MyBlog
@@ -36,7 +34,13 @@ namespace Xie_MyBlog
                 options.LoginPath = "/Home/Index";
                 options.AccessDeniedPath = "/Home/Error";
             });
-           
+            services.AddDistributedRedisCache(option => 
+            {
+                option.Configuration = Configuration.GetSection("RedisConfig").GetSection("Redis_Default")["Connection"].ToString();
+                option.InstanceName = Configuration.GetSection("RedisConfig").GetSection("Redis_Default")["InstanceName"].ToString();
+            });
+     
+            //var builder=services.AddIdentityServer();           
             services.AddMvc();
             
         }
@@ -53,9 +57,9 @@ namespace Xie_MyBlog
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+            app.UseDefaultFiles();
             app.UseStaticFiles();
-            app.UseAuthentication();
+            app.UseAuthentication();            
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

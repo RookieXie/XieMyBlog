@@ -6,8 +6,10 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
 using Xie_BlogData.Data;
 using Xie_BlogService;
 using Xie_Db;
@@ -20,9 +22,9 @@ namespace Xie_MyBlog.Controllers
     {
         private LoginService _loginService;
 
-        public HomeController(XieMyBlogDbContext dbContext)
+        public HomeController(XieMyBlogDbContext dbContext, IDistributedCache distributedCache)
         {
-            _loginService = new LoginService(dbContext);
+            _loginService = new LoginService(dbContext, distributedCache);
         }
 
         [ServiceFilter(typeof(XBlogLogActionFilter))]
@@ -30,10 +32,11 @@ namespace Xie_MyBlog.Controllers
         {
             return View();
         }
+        [AllowAnonymous]
         public async Task<string> Login(string username, string password)
         {
             var res = await _loginService.Login(username, password);
-            if (res)
+            if (res!=null)
             {
                 var claims = new List<Claim> {
                     new Claim(ClaimTypes.Name, username),
@@ -64,7 +67,7 @@ namespace Xie_MyBlog.Controllers
                     //IssuedUtc = <DateTimeOffset>,
                     // The time at which the authentication ticket was issued.
 
-                    //RedirectUri = <string>
+                    RedirectUri = "/Home/Index"
                     // The full path or absolute URI to be used as an http 
                     // redirect response value.
                 };
@@ -74,13 +77,15 @@ namespace Xie_MyBlog.Controllers
             }
             return "0";
         }
-
+        
         public async Task<IActionResult> LogOut()
         {
             await HttpContext.SignOutAsync(
     CookieAuthenticationDefaults.AuthenticationScheme);
             return View();
         }
+
+        [Authorize]
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
@@ -88,6 +93,7 @@ namespace Xie_MyBlog.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
@@ -98,6 +104,20 @@ namespace Xie_MyBlog.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        public async Task<string> Register(string userName,string nickName,string password)
+        {
+           var res= await _loginService.Register(userName, nickName, password);
+            if (res>0)
+            {
+                return "1";
+            }
+            return "0";
+        }
+
+        public IActionResult RegisterView()
+        {
+            return View();
         }
     }
 }

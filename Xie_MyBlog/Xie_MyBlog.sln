@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xie_BlogService", "Xie_Blog
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xie_BlogData", "Xie_BlogData\Xie_BlogData.csproj", "{6A6D2038-6F94-42D1-AAB9-BBEAA29ACA5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestBlog", "XUnitTestBlog\XUnitTestBlog.csproj", "{5BB81D44-D776-4EF9-A07D-A63EF5C68FC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestBlog", "XUnitTestBlog\XUnitTestBlog.csproj", "{5BB81D44-D776-4EF9-A07D-A63EF5C68FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xie_Core", "Xie_Core\Xie_Core.csproj", "{18C287E3-C94D-4B8C-BCA9-2572ACE0146D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5BB81D44-D776-4EF9-A07D-A63EF5C68FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BB81D44-D776-4EF9-A07D-A63EF5C68FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BB81D44-D776-4EF9-A07D-A63EF5C68FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C287E3-C94D-4B8C-BCA9-2572ACE0146D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C287E3-C94D-4B8C-BCA9-2572ACE0146D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C287E3-C94D-4B8C-BCA9-2572ACE0146D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C287E3-C94D-4B8C-BCA9-2572ACE0146D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

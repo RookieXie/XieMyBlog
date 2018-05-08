@@ -21,9 +21,9 @@ namespace Xie_EntityFrameworkCore.netLog4
         public override void OnActionExecuting(ActionExecutingContext context)
         {
             XBlogLog log = new XBlogLog();
-            log.FID = "321";
-            _dbContext.XBlogLog.Add(log);
-            _dbContext.SaveChanges();
+            //log.FID = "321";
+            //_dbContext.XBlogLog.Add(log);
+            //_dbContext.SaveChanges();
             base.OnActionExecuting(context);
         }
         public override void OnActionExecuted(ActionExecutedContext context)
