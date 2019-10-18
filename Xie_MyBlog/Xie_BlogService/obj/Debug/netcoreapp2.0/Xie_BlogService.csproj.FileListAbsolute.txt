@@ -54,3 +54,16 @@ F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_BlogD
 F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogService\obj\Debug\netcoreapp2.0\Xie_BlogService.csproj.CopyComplete
 F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.dll
 F:\github\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_EntityFrameworkCore.pdb
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_BlogService.deps.json
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_BlogService.dll
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_BlogService.pdb
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_BlogData.dll
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_Db.dll
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_Db.pdb
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\bin\Debug\netcoreapp2.0\Xie_BlogData.pdb
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\obj\Debug\netcoreapp2.0\Xie_BlogService.csprojAssemblyReference.cache
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\obj\Debug\netcoreapp2.0\Xie_BlogService.AssemblyInfoInputs.cache
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\obj\Debug\netcoreapp2.0\Xie_BlogService.AssemblyInfo.cs
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\obj\Debug\netcoreapp2.0\Xie_BlogService.csproj.CopyComplete
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\obj\Debug\netcoreapp2.0\Xie_BlogService.dll
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_BlogService\obj\Debug\netcoreapp2.0\Xie_BlogService.pdb

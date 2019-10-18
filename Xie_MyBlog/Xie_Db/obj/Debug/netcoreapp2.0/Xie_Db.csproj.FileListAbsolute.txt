@@ -44,3 +44,14 @@ F:\github\XieMyBlog\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_Db.pdb
 F:\github\XieMyBlog\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_BlogData.dll
 F:\github\XieMyBlog\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_BlogData.pdb
 F:\github\XieMyBlog\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.csproj.CopyComplete
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_Db.deps.json
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_Db.dll
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_Db.pdb
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_BlogData.dll
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\bin\Debug\netcoreapp2.0\Xie_BlogData.pdb
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.csprojAssemblyReference.cache
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.AssemblyInfoInputs.cache
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.AssemblyInfo.cs
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.csproj.CopyComplete
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.dll
+I:\GitHub\XieMyBlog\Xie_MyBlog\Xie_Db\obj\Debug\netcoreapp2.0\Xie_Db.pdb

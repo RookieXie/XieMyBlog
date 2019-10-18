@@ -13,7 +13,6 @@ using Microsoft.Extensions.Caching.Distributed;
 using Xie_BlogData.Data;
 using Xie_BlogService;
 using Xie_Db;
-using Xie_EntityFrameworkCore.netLog4;
 using Xie_MyBlog.Models;
 
 namespace Xie_MyBlog.Controllers
@@ -27,7 +26,7 @@ namespace Xie_MyBlog.Controllers
             _loginService = new LoginService(dbContext, distributedCache);
         }
 
-        [ServiceFilter(typeof(XBlogLogActionFilter))]
+        //[ServiceFilter(typeof(XBlogLogActionFilter))]
         public IActionResult Index()
         {
             return View();

@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Xie_Db\Xie_Db.csproj" />
-    <ProjectReference Include="..\Xie_EntityFrameworkCore\Xie_EntityFrameworkCore.csproj" />
   </ItemGroup>
 
   <ItemGroup>

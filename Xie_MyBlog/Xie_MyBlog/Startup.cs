@@ -11,7 +11,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Xie_Db;
-using Xie_EntityFrameworkCore.netLog4;
 
 namespace Xie_MyBlog
 {
@@ -28,20 +27,16 @@ namespace Xie_MyBlog
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<XieMyBlogDbContext>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddScoped<XBlogLogActionFilter>(); //注入日志 实现aop
+            //services.AddScoped<XBlogLogActionFilter>(); //注入日志 实现aop
             XBlogSingleton.CreateInstance();//or  services.AddSingleton<>();
             services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options => {
                 options.LoginPath = "/Home/Index";
                 options.AccessDeniedPath = "/Home/Error";
             });
-            services.AddDistributedRedisCache(option => 
-            {
-                option.Configuration = Configuration.GetSection("RedisConfig").GetSection("Redis_Default")["Connection"].ToString();
-                option.InstanceName = Configuration.GetSection("RedisConfig").GetSection("Redis_Default")["InstanceName"].ToString();
-            });
+          
      
             //var builder=services.AddIdentityServer();           
-            services.AddMvc();
+            services.AddControllers();
             
         }
 
@@ -51,7 +46,7 @@ namespace Xie_MyBlog
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseBrowserLink();
+                //app.UseBrowserLink();
             }
             else
             {
@@ -59,12 +54,9 @@ namespace Xie_MyBlog
             }
             app.UseDefaultFiles();
             app.UseStaticFiles();
-            app.UseAuthentication();            
-            app.UseMvc(routes =>
-            {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+            app.UseAuthentication();
+            app.UseEndpoints(option=> {
+                option.MapControllers();
             });
         }
     }

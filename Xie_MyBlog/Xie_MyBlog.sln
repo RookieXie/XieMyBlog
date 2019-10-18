@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29319.158
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xie_MyBlog", "Xie_MyBlog\Xie_MyBlog.csproj", "{E533D4A8-8ED3-4898-8058-03DDF015CB02}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xie_EntityFrameworkCore", "Xie_EntityFrameworkCore\Xie_EntityFrameworkCore.csproj", "{116EA88D-E7B6-4590-B40C-BDC9202D05A6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xie_Db", "Xie_Db\Xie_Db.csproj", "{F3DDCF05-810C-4BDC-AB34-3AF4E3E0C1FB}"
 EndProject
@@ -15,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xie_BlogData", "Xie_BlogDat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestBlog", "XUnitTestBlog\XUnitTestBlog.csproj", "{5BB81D44-D776-4EF9-A07D-A63EF5C68FC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xie_Core", "Xie_Core\Xie_Core.csproj", "{18C287E3-C94D-4B8C-BCA9-2572ACE0146D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xie_Core", "Xie_Core\Xie_Core.csproj", "{18C287E3-C94D-4B8C-BCA9-2572ACE0146D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +25,6 @@ Global
 		{E533D4A8-8ED3-4898-8058-03DDF015CB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E533D4A8-8ED3-4898-8058-03DDF015CB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E533D4A8-8ED3-4898-8058-03DDF015CB02}.Release|Any CPU.Build.0 = Release|Any CPU
-		{116EA88D-E7B6-4590-B40C-BDC9202D05A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{116EA88D-E7B6-4590-B40C-BDC9202D05A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{116EA88D-E7B6-4590-B40C-BDC9202D05A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{116EA88D-E7B6-4590-B40C-BDC9202D05A6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F3DDCF05-810C-4BDC-AB34-3AF4E3E0C1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3DDCF05-810C-4BDC-AB34-3AF4E3E0C1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3DDCF05-810C-4BDC-AB34-3AF4E3E0C1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
