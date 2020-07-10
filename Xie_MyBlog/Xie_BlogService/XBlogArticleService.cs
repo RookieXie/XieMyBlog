@@ -12,11 +12,9 @@ namespace Xie_BlogService
     public class XBlogArticleService
     {
         private XieMyBlogDbContext _dbContext;
-        private IDistributedCache _distributedCache;
-        public XBlogArticleService(XieMyBlogDbContext dbContext, IDistributedCache distributedCache)
+        public XBlogArticleService(XieMyBlogDbContext dbContext)
         {
             _dbContext = dbContext;
-            _distributedCache = distributedCache;
         }
         public List<XBlogTitleType> GetArticleTypeList()
         {

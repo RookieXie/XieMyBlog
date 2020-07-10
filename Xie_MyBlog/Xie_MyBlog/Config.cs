@@ -9,11 +9,11 @@ namespace Xie_MyBlog
     public class Config
     {
 
-        public static IEnumerable<Scope> GetScopes()
+        public static IEnumerable<ApiScope> GetScopes()
         {
-            return new List<Scope>
+            return new List<ApiScope>
             {
-                new Scope
+                new ApiScope
                 {
                     Name="webapi",
                     Description="Asp.net core web api"

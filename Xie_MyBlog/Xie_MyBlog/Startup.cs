@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Xie_BlogService;
 using Xie_Db;
 
 namespace Xie_MyBlog
@@ -34,14 +36,14 @@ namespace Xie_MyBlog
                 options.AccessDeniedPath = "/Home/Error";
             });
           
-     
+            services.AddScoped<XBlogArticleService>();
             //var builder=services.AddIdentityServer();           
             services.AddControllers();
             
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -52,6 +54,7 @@ namespace Xie_MyBlog
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+            app.UseRouting();
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseAuthentication();

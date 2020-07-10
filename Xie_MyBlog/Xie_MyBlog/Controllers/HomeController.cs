@@ -21,9 +21,9 @@ namespace Xie_MyBlog.Controllers
     {
         private LoginService _loginService;
 
-        public HomeController(XieMyBlogDbContext dbContext, IDistributedCache distributedCache)
+        public HomeController(LoginService loginService)
         {
-            _loginService = new LoginService(dbContext, distributedCache);
+            _loginService = loginService;
         }
 
         //[ServiceFilter(typeof(XBlogLogActionFilter))]

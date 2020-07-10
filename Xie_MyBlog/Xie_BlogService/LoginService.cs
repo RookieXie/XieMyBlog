@@ -1,24 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Microsoft.EntityFrameworkCore.Extensions.Internal;
 using Microsoft.Extensions.Caching.Distributed;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Xie_BlogData.Data;
 using Xie_Db;
-using Xie_EntityFrameworkCore;
 
 namespace Xie_BlogService
 {
     public class LoginService
     {
         private XieMyBlogDbContext _dbContext;
-        private IDistributedCache _distributedCache;
-        public LoginService(XieMyBlogDbContext dbContext, IDistributedCache distributedCache)
+        public LoginService(XieMyBlogDbContext dbContext)
         {
             _dbContext = dbContext;
-            _distributedCache = distributedCache;
         }
         public Task<XBlogUser> Login(string username, string password)
         {
@@ -26,11 +22,7 @@ namespace Xie_BlogService
             XBlogUser user = taskUser.Result;
             if (user != null)
             {
-                var _user= _distributedCache.GetString(user.FID);
-                if (string.IsNullOrEmpty(_user))
-                {
-                    _distributedCache.SetString(user.FID, user.ToString());
-                }
+                
                 XBlogSingleton.Current.UserID = user.FID;
                 XBlogSingleton.Current.UserName = user.UserName;
                 XBlogSingleton.Current.NickName = user.NickName;

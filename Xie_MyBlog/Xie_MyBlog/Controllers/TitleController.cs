@@ -6,27 +6,31 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Distributed;
 using Xie_BlogService;
 using Xie_Db;
+using Xie_BlogData.Data;
 
 namespace Xie_MyBlog.Controllers
 {
-    public class TitleController : Controller
+    [ApiController]
+    [Route("[controller]")]
+    public class TitleController : ControllerBase
     {
         private XBlogArticleService _articleService;
 
-        public TitleController(XieMyBlogDbContext dbContext, IDistributedCache distributedCache)
+        public TitleController(XBlogArticleService articleService)
         {
-            _articleService = new XBlogArticleService(dbContext, distributedCache);
+            _articleService = articleService;
         }
-        public IActionResult Index()
+        [HttpGet]
+        public string ArticleList()
         {
-            return View();
+            return "TitleController";
         }
-        public IActionResult TitleType()
+        public  List<XBlogTitleType> TitleType()
         {
             var list = _articleService.GetArticleTypeList();
-            return View(list);
+            return list;
         }
-
+        [HttpGet("{signName}")]
         public async Task<string> AddArticleType(string signName)
         {
            var res= await _articleService.AddArticleType(signName);
@@ -35,15 +39,6 @@ namespace Xie_MyBlog.Controllers
                 return "1";
             }
             return "0";
-        }
-        public IActionResult ArticleList()
-        {
-            return View();
-        }
-
-        public IActionResult ArticleDetail()
-        {
-            return View();
         }
     }
 }

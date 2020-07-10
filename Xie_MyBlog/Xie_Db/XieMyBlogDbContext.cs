@@ -70,7 +70,7 @@ namespace Xie_Db
             }
             return base.Update(entity);
         }
-        public override Task<EntityEntry<TEntity>> AddAsync<TEntity>(TEntity entity, CancellationToken cancellationToken = default(CancellationToken))
+        public override ValueTask<EntityEntry<TEntity>> AddAsync<TEntity>(TEntity entity, CancellationToken cancellationToken = default(CancellationToken))
         {
             XBlogBase model = entity as XBlogBase;
             if (model != null)
